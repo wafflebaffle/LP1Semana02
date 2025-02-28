@@ -14,11 +14,13 @@ namespace Cilindro
 
             //V = πr2a
             double v = Math.PI*Math.Pow(r, 2)*a;
-            Console.WriteLine(v);
+            double vv = Math.Round(v, 3);
+            Console.WriteLine(vv);
             
             //Sa = 2πr(r + a)
             double s = 2*Math.PI*(r*(r+a));
-            Console.WriteLine(s);
+            double ss = Math.Round(s, 3);
+            Console.WriteLine(ss);
         }
     }
 }
